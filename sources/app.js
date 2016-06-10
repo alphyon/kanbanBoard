@@ -13,7 +13,7 @@ let cardList =[
   },
   {
     id:2,
-    title:"Terminar el Codigo del libro ",
+    title:"Terminar el Codigo del libro Terminar el Codigo del libro Terminar el Codigo del libro ",
     description: "terminar los codigos de este ejemplo mi repo es [github](https://github.com/alphyon) ",
     color:'#3a7e28',
     status: "todo",
@@ -35,6 +35,30 @@ let cardList =[
       },
     ]
   },
+  {
+    id:3,
+    title:"React kanban  ",
+    description: "hacer la app  ",
+    color:'#3a7eff',
+    status: "done",
+    tasks:[
+      {
+        id:1,
+        name:"Crear Estructura base",
+        done:true
+      },
+      {
+        id:2,
+        name:"Ejemplo de tablero ",
+        done:false
+      },
+      {
+        id:3,
+        name:"Hacer experimentos ",
+        done:false
+      },
+    ]
+  }
 ];
 
 render(<KanbanBoard cards={cardList} />,document.getElementById('root'));
